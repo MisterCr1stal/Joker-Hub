@@ -1,0 +1,6 @@
+if game.placeId == 920587237 then -- Adopt Me
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MisterCr1stal/Joker-Hub/main/Joker%20Hub", true))()
+
+else
+game.Players.LocalPlayer:Kick("Joker Hub not support this game!")
+end
