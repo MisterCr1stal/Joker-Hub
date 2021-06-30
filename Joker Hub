@@ -1,0 +1,989 @@
+---Made By NezyGhoul#8130---
+
+local JokerHub = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UpPanel = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local JokerHub_2 = Instance.new("TextLabel")
+local NA = Instance.new("TextLabel")
+local CloseMain = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local GetInfo = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local GotKick = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local UICorner_6 = Instance.new("UICorner")
+local _1 = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local _2 = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local _3 = Instance.new("Frame")
+local UICorner_9 = Instance.new("UICorner")
+local _4 = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local VGHub = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local InfinityYeild = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local ChatLogs = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local GoodFunctions = Instance.new("TextLabel")
+local GetTeleportGUI = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local AntarcticHub = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local GetAntiAfk = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local JOKER = Instance.new("ImageLabel")
+local flash_on = Instance.new("ImageButton")
+local Teleports = Instance.new("Frame")
+local UpPanel2 = Instance.new("Frame")
+local UICorner_17 = Instance.new("UICorner")
+local JokerHubTp = Instance.new("TextLabel")
+local CloseTeleports = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local FlashTeleport = Instance.new("ImageButton")
+local _1_2 = Instance.new("Frame")
+local UICorner_19 = Instance.new("UICorner")
+local _3_2 = Instance.new("Frame")
+local UICorner_20 = Instance.new("UICorner")
+local _2_2 = Instance.new("Frame")
+local UICorner_21 = Instance.new("UICorner")
+local Center = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local SkyCastle = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local Playground = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local Hospital = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local Neighbourhood = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local CourtBuilding = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local Info = Instance.new("Frame")
+local UpPanel3 = Instance.new("Frame")
+local UICorner_28 = Instance.new("UICorner")
+local InfoType = Instance.new("TextLabel")
+local CloseInfo = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local FlashInfo = Instance.new("ImageButton")
+local By = Instance.new("TextLabel")
+local DisServer = Instance.new("TextLabel")
+local step1 = Instance.new("Frame")
+local UpPanel5 = Instance.new("Frame")
+local UICorner_30 = Instance.new("UICorner")
+local JokerHubStep1 = Instance.new("TextLabel")
+local flash_on_2 = Instance.new("ImageButton")
+local JokerHubStep1_2 = Instance.new("TextLabel")
+local loop = Instance.new("ImageButton")
+local step2 = Instance.new("Frame")
+local UpPanel6 = Instance.new("Frame")
+local UICorner_31 = Instance.new("UICorner")
+local JokerHubStep1_3 = Instance.new("TextLabel")
+local flash_on_3 = Instance.new("ImageButton")
+local JokerHubStep1_4 = Instance.new("TextLabel")
+local loop_2 = Instance.new("ImageButton")
+local step3 = Instance.new("Frame")
+local UpPanel7 = Instance.new("Frame")
+local UICorner_32 = Instance.new("UICorner")
+local JokerHubStep1_5 = Instance.new("TextLabel")
+local flash_on_4 = Instance.new("ImageButton")
+local JokerHubStep1_6 = Instance.new("TextLabel")
+local loop_3 = Instance.new("ImageButton")
+local file_download = Instance.new("ImageButton")
+local step4 = Instance.new("Frame")
+local UpPanel8 = Instance.new("Frame")
+local UICorner_33 = Instance.new("UICorner")
+local JokerHubStep1_7 = Instance.new("TextLabel")
+local flash_on_5 = Instance.new("ImageButton")
+local JokerHubStep1_8 = Instance.new("TextLabel")
+local loop_4 = Instance.new("ImageButton")
+local done = Instance.new("ImageButton")
+
+--Properties:
+
+JokerHub.Name = "JokerHub"
+JokerHub.Parent = game.CoreGui
+JokerHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = JokerHub
+Main.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+Main.Position = UDim2.new(0.167295218, 0, 0.24857685, 0)
+Main.Size = UDim2.new(0, 508, 0, 264)
+Main.Visible = false
+Main.Active = true
+Main.Draggable = true
+
+UICorner.Parent = Main
+
+UpPanel.Name = "Up Panel"
+UpPanel.Parent = Main
+UpPanel.BackgroundColor3 = Color3.fromRGB(0, 62, 0)
+UpPanel.Position = UDim2.new(-0.0472440943, 0, -0.102272727, 0)
+UpPanel.Size = UDim2.new(0, 555, 0, 58)
+
+UICorner_2.Parent = UpPanel
+
+JokerHub_2.Name = "JokerHub"
+JokerHub_2.Parent = Main
+JokerHub_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JokerHub_2.BackgroundTransparency = 1.000
+JokerHub_2.Position = UDim2.new(0.253937006, 0, -0.102272727, 0)
+JokerHub_2.Size = UDim2.new(0, 275, 0, 58)
+JokerHub_2.Font = Enum.Font.DenkOne
+JokerHub_2.Text = "Joker Hub"
+JokerHub_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+JokerHub_2.TextScaled = true
+JokerHub_2.TextSize = 14.000
+JokerHub_2.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
+JokerHub_2.TextStrokeTransparency = 0.000
+JokerHub_2.TextWrapped = true
+
+NA.Name = "N/A"
+NA.Parent = Main
+NA.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NA.BackgroundTransparency = 1.000
+NA.Position = UDim2.new(0.423228353, 0, 0.833333313, 0)
+NA.Size = UDim2.new(0, 272, 0, 35)
+NA.Font = Enum.Font.Oswald
+NA.Text = "N/A"
+NA.TextColor3 = Color3.fromRGB(255, 255, 255)
+NA.TextScaled = true
+NA.TextSize = 14.000
+NA.TextStrokeColor3 = Color3.fromRGB(255, 170, 0)
+NA.TextStrokeTransparency = 0.000
+NA.TextWrapped = true
+
+CloseMain.Name = "CloseMain"
+CloseMain.Parent = Main
+CloseMain.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+CloseMain.Position = UDim2.new(0.958661437, 0, -0.0416666679, 0)
+CloseMain.Size = UDim2.new(0, 28, 0, 25)
+CloseMain.Font = Enum.Font.SourceSans
+CloseMain.Text = ""
+CloseMain.TextColor3 = Color3.fromRGB(0, 0, 0)
+CloseMain.TextSize = 14.000
+CloseMain.MouseButton1Down:connect(function()
+	JokerHub.Main:Destroy()
+end)
+
+UICorner_3.Parent = CloseMain
+
+GetInfo.Name = "GetInfo"
+GetInfo.Parent = Main
+GetInfo.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+GetInfo.Position = UDim2.new(0.891732275, 0, -0.0416666679, 0)
+GetInfo.Size = UDim2.new(0, 28, 0, 25)
+GetInfo.Font = Enum.Font.SourceSans
+GetInfo.Text = ""
+GetInfo.TextColor3 = Color3.fromRGB(0, 0, 0)
+GetInfo.TextSize = 14.000
+GetInfo.MouseButton1Down:connect(function()
+	JokerHub.Info.Visible = true
+end)
+
+UICorner_4.Parent = GetInfo
+
+GotKick.Name = "GotKick"
+GotKick.Parent = Main
+GotKick.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+GotKick.Position = UDim2.new(0.822834611, 0, -0.0416666679, 0)
+GotKick.Size = UDim2.new(0, 28, 0, 25)
+GotKick.Font = Enum.Font.SourceSans
+GotKick.Text = ""
+GotKick.TextColor3 = Color3.fromRGB(0, 0, 0)
+GotKick.TextSize = 14.000
+GotKick.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer:Kick("U been trolled :D")
+end)
+
+UICorner_5.Parent = GotKick
+
+UICorner_6.Parent = GotKick
+
+_1.Name = "1"
+_1.Parent = Main
+_1.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+_1.Position = UDim2.new(0, 0, 0.117424242, 0)
+_1.Size = UDim2.new(0, 9, 0, 233)
+
+UICorner_7.Parent = _1
+
+_2.Name = "2"
+_2.Parent = Main
+_2.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+_2.Position = UDim2.new(0.982283473, 0, 0.117424242, 0)
+_2.Size = UDim2.new(0, 9, 0, 233)
+
+UICorner_8.Parent = _2
+
+_3.Name = "3"
+_3.Parent = Main
+_3.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+_3.Position = UDim2.new(0, 0, 0.965909064, 0)
+_3.Size = UDim2.new(0, 508, 0, 9)
+
+UICorner_9.Parent = _3
+
+_4.Name = "4"
+_4.Parent = Main
+_4.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+_4.Position = UDim2.new(0.383858263, 0, 0.117424242, 0)
+_4.Size = UDim2.new(0, 9, 0, 233)
+
+UICorner_10.Parent = _4
+
+VGHub.Name = "V.G Hub"
+VGHub.Parent = Main
+VGHub.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+VGHub.Position = UDim2.new(0.0393700786, 0, 0.166666672, 0)
+VGHub.Size = UDim2.new(0, 167, 0, 49)
+VGHub.Font = Enum.Font.FredokaOne
+VGHub.Text = "V.G Hub"
+VGHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+VGHub.TextScaled = true
+VGHub.TextSize = 14.000
+VGHub.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
+VGHub.TextStrokeTransparency = 0.000
+VGHub.TextWrapped = true
+VGHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+
+UICorner_11.Parent = VGHub
+
+InfinityYeild.Name = "Infinity Yeild"
+InfinityYeild.Parent = Main
+InfinityYeild.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+InfinityYeild.Position = UDim2.new(0.0393700786, 0, 0.409090906, 0)
+InfinityYeild.Size = UDim2.new(0, 167, 0, 49)
+InfinityYeild.Font = Enum.Font.FredokaOne
+InfinityYeild.Text = "Infinity Yeild"
+InfinityYeild.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfinityYeild.TextScaled = true
+InfinityYeild.TextSize = 14.000
+InfinityYeild.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
+InfinityYeild.TextStrokeTransparency = 0.000
+InfinityYeild.TextWrapped = true
+InfinityYeild.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+UICorner_12.Parent = InfinityYeild
+
+ChatLogs.Name = "Chat Logs"
+ChatLogs.Parent = Main
+ChatLogs.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+ChatLogs.Position = UDim2.new(0.0393700786, 0, 0.647727251, 0)
+ChatLogs.Size = UDim2.new(0, 167, 0, 49)
+ChatLogs.Font = Enum.Font.FredokaOne
+ChatLogs.Text = "Chat Logs"
+ChatLogs.TextColor3 = Color3.fromRGB(255, 255, 255)
+ChatLogs.TextScaled = true
+ChatLogs.TextSize = 14.000
+ChatLogs.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
+ChatLogs.TextStrokeTransparency = 0.000
+ChatLogs.TextWrapped = true
+ChatLogs.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/wfp4bJi2", true))()
+end)
+
+UICorner_13.Parent = ChatLogs
+
+GoodFunctions.Name = "GoodFunctions"
+GoodFunctions.Parent = Main
+GoodFunctions.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GoodFunctions.BackgroundTransparency = 1.000
+GoodFunctions.Position = UDim2.new(0.0393700786, 0, 0.863636374, 0)
+GoodFunctions.Size = UDim2.new(0, 167, 0, 19)
+GoodFunctions.Font = Enum.Font.Merriweather
+GoodFunctions.Text = "Good Functions..."
+GoodFunctions.TextColor3 = Color3.fromRGB(0, 170, 0)
+GoodFunctions.TextScaled = true
+GoodFunctions.TextSize = 14.000
+GoodFunctions.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
+GoodFunctions.TextStrokeTransparency = 0.000
+GoodFunctions.TextWrapped = true
+
+GetTeleportGUI.Name = "GetTeleportGUI"
+GetTeleportGUI.Parent = Main
+GetTeleportGUI.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+GetTeleportGUI.Position = UDim2.new(0.423228353, 0, 0.166666672, 0)
+GetTeleportGUI.Size = UDim2.new(0, 272, 0, 49)
+GetTeleportGUI.Font = Enum.Font.FredokaOne
+GetTeleportGUI.Text = "Get Teleports GUI"
+GetTeleportGUI.TextColor3 = Color3.fromRGB(255, 255, 255)
+GetTeleportGUI.TextScaled = true
+GetTeleportGUI.TextSize = 14.000
+GetTeleportGUI.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
+GetTeleportGUI.TextStrokeTransparency = 0.000
+GetTeleportGUI.TextWrapped = true
+GetTeleportGUI.MouseButton1Down:connect(function()
+	JokerHub.Teleports.Visible = true
+end)
+
+UICorner_14.Parent = GetTeleportGUI
+
+AntarcticHub.Name = "AntarcticHub"
+AntarcticHub.Parent = Main
+AntarcticHub.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+AntarcticHub.Position = UDim2.new(0.423228353, 0, 0.409090936, 0)
+AntarcticHub.Size = UDim2.new(0, 272, 0, 49)
+AntarcticHub.Font = Enum.Font.FredokaOne
+AntarcticHub.Text = "Antarctic Hub"
+AntarcticHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+AntarcticHub.TextScaled = true
+AntarcticHub.TextSize = 14.000
+AntarcticHub.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
+AntarcticHub.TextStrokeTransparency = 0.000
+AntarcticHub.TextWrapped = true
+AntarcticHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/JusticeValley/Antarctic-Hub/main/New.lua", true))()
+end)
+
+UICorner_15.Parent = AntarcticHub
+
+GetAntiAfk.Name = "GetAntiAfk"
+GetAntiAfk.Parent = Main
+GetAntiAfk.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+GetAntiAfk.Position = UDim2.new(0.423228353, 0, 0.647727311, 0)
+GetAntiAfk.Size = UDim2.new(0, 272, 0, 49)
+GetAntiAfk.Font = Enum.Font.FredokaOne
+GetAntiAfk.Text = "Get Anti-Afk"
+GetAntiAfk.TextColor3 = Color3.fromRGB(255, 255, 255)
+GetAntiAfk.TextScaled = true
+GetAntiAfk.TextSize = 14.000
+GetAntiAfk.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
+GetAntiAfk.TextStrokeTransparency = 0.000
+GetAntiAfk.TextWrapped = true
+GetAntiAfk.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/xAxQ3gnW", true))()
+end)
+
+UICorner_16.Parent = GetAntiAfk
+
+JOKER.Name = "JOKER"
+JOKER.Parent = Main
+JOKER.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+JOKER.BackgroundTransparency = 1.000
+JOKER.Position = UDim2.new(0.0984251946, 0, -0.102272727, 0)
+JOKER.Size = UDim2.new(0, 79, 0, 58)
+JOKER.Image = "http://www.roblox.com/asset/?id=5006853514"
+JOKER.ScaleType = Enum.ScaleType.Crop
+
+flash_on.Name = "flash_on"
+flash_on.Parent = Main
+flash_on.BackgroundTransparency = 1.000
+flash_on.Position = UDim2.new(-0.0222418755, 0, -0.0924041271, 0)
+flash_on.Size = UDim2.new(0, 44, 0, 51)
+flash_on.ZIndex = 2
+flash_on.Image = "rbxassetid://3926305904"
+flash_on.ImageColor3 = Color3.fromRGB(0, 255, 0)
+flash_on.ImageRectOffset = Vector2.new(844, 804)
+flash_on.ImageRectSize = Vector2.new(36, 36)
+
+Teleports.Name = "Teleports"
+Teleports.Parent = JokerHub
+Teleports.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
+Teleports.Position = UDim2.new(0.73963356, 0, 0.119544603, 0)
+Teleports.Size = UDim2.new(0, 168, 0, 400)
+Teleports.Visible = false
+Teleports.Active = true
+Teleports.Draggable = true
+
+UpPanel2.Name = "Up Panel2"
+UpPanel2.Parent = Teleports
+UpPanel2.BackgroundColor3 = Color3.fromRGB(0, 62, 0)
+UpPanel2.Position = UDim2.new(-0.136529818, 0, -0.0297727212, 0)
+UpPanel2.Size = UDim2.new(0, 212, 0, 58)
+
+UICorner_17.Parent = UpPanel2
+
+JokerHubTp.Name = "JokerHubTp"
+JokerHubTp.Parent = Teleports
+JokerHubTp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JokerHubTp.BackgroundTransparency = 1.000
+JokerHubTp.Position = UDim2.new(0.164651409, 0, -0.0197727196, 0)
+JokerHubTp.Size = UDim2.new(0, 112, 0, 51)
+JokerHubTp.Font = Enum.Font.DenkOne
+JokerHubTp.Text = "Joker Hub"
+JokerHubTp.TextColor3 = Color3.fromRGB(255, 255, 255)
+JokerHubTp.TextScaled = true
+JokerHubTp.TextSize = 14.000
+JokerHubTp.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
+JokerHubTp.TextStrokeTransparency = 0.000
+JokerHubTp.TextWrapped = true
+
+CloseTeleports.Name = "CloseTeleports"
+CloseTeleports.Parent = Teleports
+CloseTeleports.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+CloseTeleports.Position = UDim2.new(0.893185258, 0, 0.0133333318, 0)
+CloseTeleports.Size = UDim2.new(0, 28, 0, 25)
+CloseTeleports.Font = Enum.Font.SourceSans
+CloseTeleports.Text = ""
+CloseTeleports.TextColor3 = Color3.fromRGB(0, 0, 0)
+CloseTeleports.TextSize = 14.000
+CloseTeleports.MouseButton1Down:connect(function()
+	JokerHub.Teleports:Destroy()
+end)
+
+UICorner_18.Parent = CloseTeleports
+
+FlashTeleport.Name = "FlashTeleport"
+FlashTeleport.Parent = Teleports
+FlashTeleport.BackgroundTransparency = 1.000
+FlashTeleport.Position = UDim2.new(-0.0996228307, 0, -0.0199041292, 0)
+FlashTeleport.Size = UDim2.new(0, 44, 0, 51)
+FlashTeleport.ZIndex = 2
+FlashTeleport.Image = "rbxassetid://3926305904"
+FlashTeleport.ImageColor3 = Color3.fromRGB(0, 255, 0)
+FlashTeleport.ImageRectOffset = Vector2.new(844, 804)
+FlashTeleport.ImageRectSize = Vector2.new(36, 36)
+
+_1_2.Name = "1"
+_1_2.Parent = Teleports
+_1_2.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+_1_2.Position = UDim2.new(0, 0, 0.117424242, 0)
+_1_2.Size = UDim2.new(0, 9, 0, 353)
+
+UICorner_19.Parent = _1_2
+
+_3_2.Name = "3"
+_3_2.Parent = Teleports
+_3_2.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+_3_2.Position = UDim2.new(0.946428597, 0, 0.117424242, 0)
+_3_2.Size = UDim2.new(0, 9, 0, 353)
+
+UICorner_20.Parent = _3_2
+
+_2_2.Name = "2"
+_2_2.Parent = Teleports
+_2_2.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+_2_2.Position = UDim2.new(0, 0, 0.979924262, 0)
+_2_2.Size = UDim2.new(0, 168, 0, 8)
+
+UICorner_21.Parent = _2_2
+
+Center.Name = "Center"
+Center.Parent = Teleports
+Center.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Center.Position = UDim2.new(0.0691321269, 0, 0.141666681, 0)
+Center.Size = UDim2.new(0, 143, 0, 45)
+Center.Font = Enum.Font.FredokaOne
+Center.Text = "Center"
+Center.TextColor3 = Color3.fromRGB(255, 255, 255)
+Center.TextScaled = true
+Center.TextSize = 14.000
+Center.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
+Center.TextStrokeTransparency = 0.000
+Center.TextWrapped = true
+Center.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-249.95352172852, 19.08003616333, -1505.7478027344)
+end)
+
+UICorner_22.Parent = Center
+
+SkyCastle.Name = "Sky Castle"
+SkyCastle.Parent = Teleports
+SkyCastle.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+SkyCastle.Position = UDim2.new(0.0691321269, 0, 0.279166698, 0)
+SkyCastle.Size = UDim2.new(0, 143, 0, 45)
+SkyCastle.Font = Enum.Font.FredokaOne
+SkyCastle.Text = "Sky Castle"
+SkyCastle.TextColor3 = Color3.fromRGB(255, 255, 255)
+SkyCastle.TextScaled = true
+SkyCastle.TextSize = 14.000
+SkyCastle.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
+SkyCastle.TextStrokeTransparency = 0.000
+SkyCastle.TextWrapped = true
+SkyCastle.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-236.43579101563, 343.97729492188, -1364.5093994141)
+end)
+
+UICorner_23.Parent = SkyCastle
+
+Playground.Name = "Playground"
+Playground.Parent = Teleports
+Playground.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Playground.Position = UDim2.new(0.0691321269, 0, 0.419166684, 0)
+Playground.Size = UDim2.new(0, 143, 0, 45)
+Playground.Font = Enum.Font.FredokaOne
+Playground.Text = "Playground"
+Playground.TextColor3 = Color3.fromRGB(255, 255, 255)
+Playground.TextScaled = true
+Playground.TextSize = 14.000
+Playground.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
+Playground.TextStrokeTransparency = 0.000
+Playground.TextWrapped = true
+Playground.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-388.85961914063, 18.905086517334, -1748.1893310547)
+end)
+
+UICorner_24.Parent = Playground
+
+Hospital.Name = "Hospital"
+Hospital.Parent = Teleports
+Hospital.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Hospital.Position = UDim2.new(0.0691321269, 0, 0.561666667, 0)
+Hospital.Size = UDim2.new(0, 143, 0, 45)
+Hospital.Font = Enum.Font.FredokaOne
+Hospital.Text = "Hospital"
+Hospital.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hospital.TextScaled = true
+Hospital.TextSize = 14.000
+Hospital.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
+Hospital.TextStrokeTransparency = 0.000
+Hospital.TextWrapped = true
+Hospital.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5998.02734375, 3999.5207519531, -10019.189453125)
+end)
+
+UICorner_25.Parent = Hospital
+
+Neighbourhood.Name = "Neighbourhood"
+Neighbourhood.Parent = Teleports
+Neighbourhood.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Neighbourhood.Position = UDim2.new(0.0691321269, 0, 0.706666648, 0)
+Neighbourhood.Size = UDim2.new(0, 143, 0, 45)
+Neighbourhood.Font = Enum.Font.FredokaOne
+Neighbourhood.Text = "Neighbourhood"
+Neighbourhood.TextColor3 = Color3.fromRGB(255, 255, 255)
+Neighbourhood.TextScaled = true
+Neighbourhood.TextSize = 14.000
+Neighbourhood.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
+Neighbourhood.TextStrokeTransparency = 0.000
+Neighbourhood.TextWrapped = true
+Neighbourhood.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3998.6083984375, 3995.4743652344, -6049.9331054688)
+end)
+
+UICorner_26.Parent = Neighbourhood
+
+CourtBuilding.Name = "Court Building"
+CourtBuilding.Parent = Teleports
+CourtBuilding.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+CourtBuilding.Position = UDim2.new(0.0691321269, 0, 0.849166632, 0)
+CourtBuilding.Size = UDim2.new(0, 143, 0, 45)
+CourtBuilding.Font = Enum.Font.FredokaOne
+CourtBuilding.Text = "Court Building"
+CourtBuilding.TextColor3 = Color3.fromRGB(255, 255, 255)
+CourtBuilding.TextScaled = true
+CourtBuilding.TextSize = 14.000
+CourtBuilding.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
+CourtBuilding.TextStrokeTransparency = 0.000
+CourtBuilding.TextWrapped = true
+CourtBuilding.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-480.98828125, 18.800104141235, -1228.0277099609)
+end)
+
+UICorner_27.Parent = CourtBuilding
+
+Info.Name = "Info"
+Info.Parent = JokerHub
+Info.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
+Info.Position = UDim2.new(0.00847457629, 0, 0.425047427, 0)
+Info.Size = UDim2.new(0, 151, 0, 214)
+Info.Visible = false
+Info.Active = true
+Info.Draggable = true
+
+UpPanel3.Name = "Up Panel3"
+UpPanel3.Parent = Info
+UpPanel3.BackgroundColor3 = Color3.fromRGB(0, 62, 0)
+UpPanel3.Position = UDim2.new(-0.0860927105, 0, -0.0765017271, 0)
+UpPanel3.Size = UDim2.new(0, 177, 0, 58)
+
+UICorner_28.Parent = UpPanel3
+
+InfoType.Name = "InfoType"
+InfoType.Parent = Info
+InfoType.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfoType.BackgroundTransparency = 1.000
+InfoType.Position = UDim2.new(0.12491633, 0, -0.0618288256, 0)
+InfoType.Size = UDim2.new(0, 101, 0, 51)
+InfoType.Font = Enum.Font.DenkOne
+InfoType.Text = "Info"
+InfoType.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfoType.TextScaled = true
+InfoType.TextSize = 14.000
+InfoType.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
+InfoType.TextStrokeTransparency = 0.000
+InfoType.TextWrapped = true
+
+CloseInfo.Name = "CloseInfo"
+CloseInfo.Parent = Info
+CloseInfo.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+CloseInfo.Position = UDim2.new(0.813715041, 0, -0.000685359351, 0)
+CloseInfo.Size = UDim2.new(0, 28, 0, 25)
+CloseInfo.Font = Enum.Font.SourceSans
+CloseInfo.Text = ""
+CloseInfo.TextColor3 = Color3.fromRGB(0, 0, 0)
+CloseInfo.TextSize = 14.000
+CloseInfo.MouseButton1Down:connect(function()
+	JokerHub.Info:Destroy()
+end)
+
+UICorner_29.Parent = CloseInfo
+
+FlashInfo.Name = "FlashInfo"
+FlashInfo.Parent = Info
+FlashInfo.BackgroundTransparency = 1.000
+FlashInfo.Position = UDim2.new(-0.0863777995, 0, -0.0619602054, 0)
+FlashInfo.Size = UDim2.new(0, 44, 0, 51)
+FlashInfo.ZIndex = 2
+FlashInfo.Image = "rbxassetid://3926305904"
+FlashInfo.ImageColor3 = Color3.fromRGB(0, 255, 0)
+FlashInfo.ImageRectOffset = Vector2.new(844, 804)
+FlashInfo.ImageRectSize = Vector2.new(36, 36)
+
+By.Name = "By"
+By.Parent = Info
+By.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+By.BackgroundTransparency = 1.000
+By.Position = UDim2.new(-0.000911485287, 0, 0.190507546, 0)
+By.Size = UDim2.new(0, 151, 0, 67)
+By.Font = Enum.Font.DenkOne
+By.Text = "Made By NezyGhoul#8130"
+By.TextColor3 = Color3.fromRGB(255, 255, 255)
+By.TextScaled = true
+By.TextSize = 14.000
+By.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
+By.TextStrokeTransparency = 0.000
+By.TextWrapped = true
+
+DisServer.Name = "DisServer"
+DisServer.Parent = Info
+DisServer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DisServer.BackgroundTransparency = 1.000
+DisServer.Position = UDim2.new(-0.000911485287, 0, 0.517610371, 0)
+DisServer.Size = UDim2.new(0, 151, 0, 67)
+DisServer.Font = Enum.Font.DenkOne
+DisServer.Text = "https://discord.gg/ex9eeaUM"
+DisServer.TextColor3 = Color3.fromRGB(255, 255, 255)
+DisServer.TextScaled = true
+DisServer.TextSize = 14.000
+DisServer.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
+DisServer.TextStrokeTransparency = 0.000
+DisServer.TextWrapped = true
+
+step1.Name = "step1"
+step1.Parent = JokerHub
+step1.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+step1.Position = UDim2.new(0.259661853, 0, 0.288425058, 0)
+step1.Size = UDim2.new(0, 397, 0, 222)
+
+UpPanel5.Name = "Up Panel5"
+UpPanel5.Parent = step1
+UpPanel5.BackgroundColor3 = Color3.fromRGB(0, 62, 0)
+UpPanel5.Position = UDim2.new(-0.0699141547, 0, -0.0527231693, 0)
+UpPanel5.Size = UDim2.new(0, 451, 0, 50)
+
+UICorner_30.Parent = UpPanel5
+
+JokerHubStep1.Name = "JokerHubStep1"
+JokerHubStep1.Parent = step1
+JokerHubStep1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JokerHubStep1.BackgroundTransparency = 1.000
+JokerHubStep1.Position = UDim2.new(0.140586868, 0, -0.0527231731, 0)
+JokerHubStep1.Size = UDim2.new(0, 285, 0, 50)
+JokerHubStep1.Font = Enum.Font.DenkOne
+JokerHubStep1.Text = "Joker Hub"
+JokerHubStep1.TextColor3 = Color3.fromRGB(255, 255, 255)
+JokerHubStep1.TextScaled = true
+JokerHubStep1.TextSize = 14.000
+JokerHubStep1.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
+JokerHubStep1.TextStrokeTransparency = 0.000
+JokerHubStep1.TextWrapped = true
+
+flash_on_2.Name = "flash_on"
+flash_on_2.Parent = step1
+flash_on_2.BackgroundTransparency = 1.000
+flash_on_2.Position = UDim2.new(-0.0172040928, 0, -0.0563680902, 0)
+flash_on_2.Size = UDim2.new(0, 44, 0, 51)
+flash_on_2.ZIndex = 2
+flash_on_2.Image = "rbxassetid://3926305904"
+flash_on_2.ImageColor3 = Color3.fromRGB(0, 255, 0)
+flash_on_2.ImageRectOffset = Vector2.new(844, 804)
+flash_on_2.ImageRectSize = Vector2.new(36, 36)
+
+JokerHubStep1_2.Name = "JokerHubStep1"
+JokerHubStep1_2.Parent = step1
+JokerHubStep1_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JokerHubStep1_2.BackgroundTransparency = 1.000
+JokerHubStep1_2.Position = UDim2.new(-0.00047106226, 0, 0.366195798, 0)
+JokerHubStep1_2.Size = UDim2.new(0, 397, 0, 79)
+JokerHubStep1_2.Font = Enum.Font.Creepster
+JokerHubStep1_2.Text = "Checking game..."
+JokerHubStep1_2.TextColor3 = Color3.fromRGB(0, 85, 0)
+JokerHubStep1_2.TextSize = 41.000
+JokerHubStep1_2.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
+JokerHubStep1_2.TextStrokeTransparency = 0.000
+JokerHubStep1_2.TextWrapped = true
+
+loop.Name = "loop"
+loop.Parent = step1
+loop.BackgroundTransparency = 1.000
+loop.LayoutOrder = 5
+loop.Position = UDim2.new(0.0188916884, 0, 0.72205168, 0)
+loop.Size = UDim2.new(0, 73, 0, 61)
+loop.ZIndex = 2
+loop.Image = "rbxassetid://3926305904"
+loop.ImageColor3 = Color3.fromRGB(0, 255, 0)
+loop.ImageRectOffset = Vector2.new(244, 684)
+loop.ImageRectSize = Vector2.new(36, 36)
+
+step2.Name = "step2"
+step2.Parent = JokerHub
+step2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+step2.Position = UDim2.new(0.259661853, 0, 0.288425058, 0)
+step2.Size = UDim2.new(0, 397, 0, 222)
+step2.Visible = false
+
+UpPanel6.Name = "Up Panel6"
+UpPanel6.Parent = step2
+UpPanel6.BackgroundColor3 = Color3.fromRGB(0, 62, 0)
+UpPanel6.Position = UDim2.new(-0.0699141547, 0, -0.0527231693, 0)
+UpPanel6.Size = UDim2.new(0, 451, 0, 50)
+
+UICorner_31.Parent = UpPanel6
+
+JokerHubStep1_3.Name = "JokerHubStep1"
+JokerHubStep1_3.Parent = step2
+JokerHubStep1_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JokerHubStep1_3.BackgroundTransparency = 1.000
+JokerHubStep1_3.Position = UDim2.new(0.140586868, 0, -0.0527231731, 0)
+JokerHubStep1_3.Size = UDim2.new(0, 285, 0, 50)
+JokerHubStep1_3.Font = Enum.Font.DenkOne
+JokerHubStep1_3.Text = "Joker Hub"
+JokerHubStep1_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+JokerHubStep1_3.TextScaled = true
+JokerHubStep1_3.TextSize = 14.000
+JokerHubStep1_3.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
+JokerHubStep1_3.TextStrokeTransparency = 0.000
+JokerHubStep1_3.TextWrapped = true
+
+flash_on_3.Name = "flash_on"
+flash_on_3.Parent = step2
+flash_on_3.BackgroundTransparency = 1.000
+flash_on_3.Position = UDim2.new(-0.0172040928, 0, -0.0563680902, 0)
+flash_on_3.Size = UDim2.new(0, 44, 0, 51)
+flash_on_3.ZIndex = 2
+flash_on_3.Image = "rbxassetid://3926305904"
+flash_on_3.ImageColor3 = Color3.fromRGB(0, 255, 0)
+flash_on_3.ImageRectOffset = Vector2.new(844, 804)
+flash_on_3.ImageRectSize = Vector2.new(36, 36)
+
+JokerHubStep1_4.Name = "JokerHubStep1"
+JokerHubStep1_4.Parent = step2
+JokerHubStep1_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JokerHubStep1_4.BackgroundTransparency = 1.000
+JokerHubStep1_4.Position = UDim2.new(-0.00047106226, 0, 0.366195798, 0)
+JokerHubStep1_4.Size = UDim2.new(0, 397, 0, 79)
+JokerHubStep1_4.Font = Enum.Font.Creepster
+JokerHubStep1_4.Text = "Adopt Me!"
+JokerHubStep1_4.TextColor3 = Color3.fromRGB(0, 85, 0)
+JokerHubStep1_4.TextSize = 41.000
+JokerHubStep1_4.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
+JokerHubStep1_4.TextStrokeTransparency = 0.000
+JokerHubStep1_4.TextWrapped = true
+
+loop_2.Name = "loop"
+loop_2.Parent = step2
+loop_2.BackgroundTransparency = 1.000
+loop_2.LayoutOrder = 5
+loop_2.Position = UDim2.new(0.0188916884, 0, 0.72205168, 0)
+loop_2.Size = UDim2.new(0, 73, 0, 61)
+loop_2.ZIndex = 2
+loop_2.Image = "rbxassetid://3926305904"
+loop_2.ImageColor3 = Color3.fromRGB(0, 255, 0)
+loop_2.ImageRectOffset = Vector2.new(244, 684)
+loop_2.ImageRectSize = Vector2.new(36, 36)
+
+step3.Name = "step3"
+step3.Parent = JokerHub
+step3.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+step3.Position = UDim2.new(0.259661853, 0, 0.288425058, 0)
+step3.Size = UDim2.new(0, 397, 0, 222)
+step3.Visible = false
+
+UpPanel7.Name = "Up Panel7"
+UpPanel7.Parent = step3
+UpPanel7.BackgroundColor3 = Color3.fromRGB(0, 62, 0)
+UpPanel7.Position = UDim2.new(-0.0699141547, 0, -0.0527231693, 0)
+UpPanel7.Size = UDim2.new(0, 451, 0, 50)
+
+UICorner_32.Parent = UpPanel7
+
+JokerHubStep1_5.Name = "JokerHubStep1"
+JokerHubStep1_5.Parent = step3
+JokerHubStep1_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JokerHubStep1_5.BackgroundTransparency = 1.000
+JokerHubStep1_5.Position = UDim2.new(0.140586868, 0, -0.0527231731, 0)
+JokerHubStep1_5.Size = UDim2.new(0, 285, 0, 50)
+JokerHubStep1_5.Font = Enum.Font.DenkOne
+JokerHubStep1_5.Text = "Joker Hub"
+JokerHubStep1_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+JokerHubStep1_5.TextScaled = true
+JokerHubStep1_5.TextSize = 14.000
+JokerHubStep1_5.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
+JokerHubStep1_5.TextStrokeTransparency = 0.000
+JokerHubStep1_5.TextWrapped = true
+
+flash_on_4.Name = "flash_on"
+flash_on_4.Parent = step3
+flash_on_4.BackgroundTransparency = 1.000
+flash_on_4.Position = UDim2.new(-0.0172040928, 0, -0.0563680902, 0)
+flash_on_4.Size = UDim2.new(0, 44, 0, 51)
+flash_on_4.ZIndex = 2
+flash_on_4.Image = "rbxassetid://3926305904"
+flash_on_4.ImageColor3 = Color3.fromRGB(0, 255, 0)
+flash_on_4.ImageRectOffset = Vector2.new(844, 804)
+flash_on_4.ImageRectSize = Vector2.new(36, 36)
+
+JokerHubStep1_6.Name = "JokerHubStep1"
+JokerHubStep1_6.Parent = step3
+JokerHubStep1_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JokerHubStep1_6.BackgroundTransparency = 1.000
+JokerHubStep1_6.Position = UDim2.new(-0.00047106226, 0, 0.366195798, 0)
+JokerHubStep1_6.Size = UDim2.new(0, 397, 0, 79)
+JokerHubStep1_6.Font = Enum.Font.Creepster
+JokerHubStep1_6.Text = "Loading...Please Wait..."
+JokerHubStep1_6.TextColor3 = Color3.fromRGB(0, 85, 0)
+JokerHubStep1_6.TextSize = 41.000
+JokerHubStep1_6.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
+JokerHubStep1_6.TextStrokeTransparency = 0.000
+JokerHubStep1_6.TextWrapped = true
+
+loop_3.Name = "loop"
+loop_3.Parent = step3
+loop_3.BackgroundTransparency = 1.000
+loop_3.LayoutOrder = 5
+loop_3.Position = UDim2.new(0.0188916884, 0, 0.72205168, 0)
+loop_3.Size = UDim2.new(0, 73, 0, 61)
+loop_3.ZIndex = 2
+loop_3.Image = "rbxassetid://3926305904"
+loop_3.ImageColor3 = Color3.fromRGB(0, 255, 0)
+loop_3.ImageRectOffset = Vector2.new(244, 684)
+loop_3.ImageRectSize = Vector2.new(36, 36)
+
+file_download.Name = "file_download"
+file_download.Parent = step3
+file_download.BackgroundTransparency = 1.000
+file_download.LayoutOrder = 5
+file_download.Position = UDim2.new(0.814861476, 0, 0.72205168, 0)
+file_download.Size = UDim2.new(0, 66, 0, 56)
+file_download.ZIndex = 2
+file_download.Image = "rbxassetid://3926305904"
+file_download.ImageColor3 = Color3.fromRGB(0, 255, 0)
+file_download.ImageRectOffset = Vector2.new(844, 444)
+file_download.ImageRectSize = Vector2.new(36, 36)
+
+step4.Name = "step4"
+step4.Parent = JokerHub
+step4.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+step4.Position = UDim2.new(0.259661853, 0, 0.288425058, 0)
+step4.Size = UDim2.new(0, 397, 0, 222)
+step4.Visible = false
+
+UpPanel8.Name = "Up Panel8"
+UpPanel8.Parent = step4
+UpPanel8.BackgroundColor3 = Color3.fromRGB(0, 62, 0)
+UpPanel8.Position = UDim2.new(-0.0699141547, 0, -0.0527231693, 0)
+UpPanel8.Size = UDim2.new(0, 451, 0, 50)
+
+UICorner_33.Parent = UpPanel8
+
+JokerHubStep1_7.Name = "JokerHubStep1"
+JokerHubStep1_7.Parent = step4
+JokerHubStep1_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JokerHubStep1_7.BackgroundTransparency = 1.000
+JokerHubStep1_7.Position = UDim2.new(0.140586868, 0, -0.0527231731, 0)
+JokerHubStep1_7.Size = UDim2.new(0, 285, 0, 50)
+JokerHubStep1_7.Font = Enum.Font.DenkOne
+JokerHubStep1_7.Text = "Joker Hub"
+JokerHubStep1_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+JokerHubStep1_7.TextScaled = true
+JokerHubStep1_7.TextSize = 14.000
+JokerHubStep1_7.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
+JokerHubStep1_7.TextStrokeTransparency = 0.000
+JokerHubStep1_7.TextWrapped = true
+
+flash_on_5.Name = "flash_on"
+flash_on_5.Parent = step4
+flash_on_5.BackgroundTransparency = 1.000
+flash_on_5.Position = UDim2.new(-0.0172040928, 0, -0.0563680902, 0)
+flash_on_5.Size = UDim2.new(0, 44, 0, 51)
+flash_on_5.ZIndex = 2
+flash_on_5.Image = "rbxassetid://3926305904"
+flash_on_5.ImageColor3 = Color3.fromRGB(0, 255, 0)
+flash_on_5.ImageRectOffset = Vector2.new(844, 804)
+flash_on_5.ImageRectSize = Vector2.new(36, 36)
+
+JokerHubStep1_8.Name = "JokerHubStep1"
+JokerHubStep1_8.Parent = step4
+JokerHubStep1_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JokerHubStep1_8.BackgroundTransparency = 1.000
+JokerHubStep1_8.Position = UDim2.new(-0.00047106226, 0, 0.366195798, 0)
+JokerHubStep1_8.Size = UDim2.new(0, 397, 0, 79)
+JokerHubStep1_8.Font = Enum.Font.Creepster
+JokerHubStep1_8.Text = "Successfully Loaded..."
+JokerHubStep1_8.TextColor3 = Color3.fromRGB(0, 85, 0)
+JokerHubStep1_8.TextSize = 41.000
+JokerHubStep1_8.TextStrokeColor3 = Color3.fromRGB(0, 255, 0)
+JokerHubStep1_8.TextStrokeTransparency = 0.000
+JokerHubStep1_8.TextWrapped = true
+
+loop_4.Name = "loop"
+loop_4.Parent = step4
+loop_4.BackgroundTransparency = 1.000
+loop_4.LayoutOrder = 5
+loop_4.Position = UDim2.new(0.0188916884, 0, 0.72205168, 0)
+loop_4.Size = UDim2.new(0, 73, 0, 61)
+loop_4.ZIndex = 2
+loop_4.Image = "rbxassetid://3926305904"
+loop_4.ImageColor3 = Color3.fromRGB(0, 255, 0)
+loop_4.ImageRectOffset = Vector2.new(244, 684)
+loop_4.ImageRectSize = Vector2.new(36, 36)
+
+done.Name = "done"
+done.Parent = step4
+done.BackgroundTransparency = 1.000
+done.Position = UDim2.new(0.817523301, 0, 0.687804461, 0)
+done.Size = UDim2.new(0, 72, 0, 68)
+done.ZIndex = 2
+done.Image = "rbxassetid://3926305904"
+done.ImageColor3 = Color3.fromRGB(0, 255, 0)
+done.ImageRectOffset = Vector2.new(644, 204)
+done.ImageRectSize = Vector2.new(36, 36)
+
+-- Scripts:
+
+local function WPUNT_fake_script() -- NA.LocalScript 
+	local script = Instance.new('LocalScript', NA)
+
+	local player = game.Players.LocalPlayer
+	
+	if player then
+		script.Parent.Text = "Hello!"..player.Name.."!"
+	end
+end
+coroutine.wrap(WPUNT_fake_script)()
+
+
+
+wait(5)
+JokerHub.step1:Destroy()
+JokerHub.step2.Visible = true
+wait(2)
+JokerHub.step2:Destroy()
+JokerHub.step3.Visible = true
+wait(5)
+JokerHub.step3:Destroy()
+JokerHub.step4.Visible = true
+wait(2)
+JokerHub.step4:Destroy()
+wait(1)
+JokerHub.Main.Visible = true
