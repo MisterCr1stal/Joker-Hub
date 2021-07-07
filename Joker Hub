@@ -1,6 +1,9 @@
 if game.placeId == 920587237 then -- Adopt Me
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MisterCr1stal/Joker-Hub/main/Adopt%20Me%20Script", true))()
 
+if game.placeId == 2512643572 then -- Bubble Gum Simulator
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MisterCr1stal/Joker-Hub/main/Bubble%20Gum", true))()
+
 else
 game.Players.LocalPlayer:Kick("Joker Hub not support this game!")
 end
