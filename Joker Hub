@@ -4,6 +4,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/MisterCr1stal/Joker-H
 elseif game.placeId == 2512643572 then -- Bubble Gum Simulator
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MisterCr1stal/Joker-Hub/main/Bubble%20Gum", true))()
 
+elseif game.placeId == 142823291 then -- Murder Mystery 2
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MisterCr1stal/Joker-Hub/main/Murder%20Mystery%202", true))()
+
+
 else
 game.Players.LocalPlayer:Kick("Joker Hub not support this game!")
 end
